@@ -1,0 +1,19 @@
+|ENCODER
+X <= x_out.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst24.IN0
+I1 => inst23.IN0
+I1 => FZ.IN1
+I2 => inst22.IN0
+I2 => FY.IN2
+I4 => inst20.IN0
+I4 => FX.IN3
+I3 => inst21.IN0
+I3 => F3.IN4
+I6 => inst.IN0
+I6 => F1.IN5
+I5 => inst19.IN0
+I5 => F2.IN6
+Y <= y_out.DB_MAX_OUTPUT_PORT_TYPE
+Z <= z_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

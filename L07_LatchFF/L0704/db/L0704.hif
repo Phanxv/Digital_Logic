@@ -1,0 +1,99 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+7
+3331
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+SR_Latch
+# storage
+db|L0704.(0).cnf
+db|L0704.(0).cnf
+# case_insensitive
+# source_file
+..|L0701|SR_Latch.bdf
+32c7b584a464d14e2cbc4195ab84fc37
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+SR_Latch
+# storage
+db|L0704.(1).cnf
+db|L0704.(1).cnf
+# case_insensitive
+# source_file
+SR_latch.bdf
+b0b16ba972116c1e639e1e14e607f30
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SR_latch:inst1
+}
+# macro_sequence
+
+# end
+# entity
+L0704
+# storage
+db|L0704.(2).cnf
+db|L0704.(2).cnf
+# case_insensitive
+# source_file
+L0704.bdf
+108b32a9defabea6856030a3b8c219
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+D_laych
+# storage
+db|L0704.(3).cnf
+db|L0704.(3).cnf
+# case_insensitive
+# source_file
+D_laych.bdf
+5cd2be71c4597fae1a6616c69ba6e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+D_laych:inst
+}
+# macro_sequence
+
+# end
+# complete
+

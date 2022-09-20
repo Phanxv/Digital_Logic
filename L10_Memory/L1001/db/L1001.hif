@@ -1,0 +1,102 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Register4x3
+# storage
+db|L1001.(0).cnf
+db|L1001.(0).cnf
+# case_insensitive
+# source_file
+Register4x3.bdf
+b09ebf88806eb87f19f2c27f7cdf33
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Register4x3:inst
+}
+# macro_sequence
+
+# end
+# entity
+Output4x3
+# storage
+db|L1001.(1).cnf
+db|L1001.(1).cnf
+# case_insensitive
+# source_file
+Output4x3.bdf
+4386c2504996ebaa9e95a77b3d1c478
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Output4x3:inst3
+}
+# macro_sequence
+
+# end
+# entity
+L1001
+# storage
+db|L1001.(2).cnf
+db|L1001.(2).cnf
+# case_insensitive
+# source_file
+L1001.bdf
+4723a4eed221d78ac893d5f93402e94
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Dec4
+# storage
+db|L1001.(3).cnf
+db|L1001.(3).cnf
+# case_insensitive
+# source_file
+Dec4.bdf
+1b1ca26616cebe248424be83a2ebad2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Dec4:inst2
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,38 @@
+|Block1
+z <= L0902:inst.z
+Clk => L0902:inst.clock
+Reset => L0902:inst.reset
+W => L0902:inst.W
+Qn[0] <= L0902:inst.Qn[0]
+Qn[1] <= L0902:inst.Qn[1]
+Qn1[0] <= L0902:inst.Qn1[0]
+Qn1[1] <= L0902:inst.Qn1[1]
+
+
+|Block1|L0902:inst
+reset => Qn1~1.OUTPUTSELECT
+reset => Qn1~0.OUTPUTSELECT
+reset => Qn~2.OUTPUTSELECT
+reset => Qn~1.OUTPUTSELECT
+reset => z~1.OUTPUTSELECT
+reset => reg_fstate.D.OUTPUTSELECT
+reset => reg_fstate.C.OUTPUTSELECT
+reset => reg_fstate.B.OUTPUTSELECT
+reset => reg_fstate.A.OUTPUTSELECT
+W => Selector3.IN3
+W => Selector2.IN1
+W => Selector5.IN1
+W => Selector4.IN1
+W => Selector3.IN1
+W => Selector0.IN1
+W => Selector5.IN2
+W => Selector5.IN3
+W => Selector4.IN3
+W => Selector1.IN1
+z <= z~1.DB_MAX_OUTPUT_PORT_TYPE
+Qn[0] <= Qn~2.DB_MAX_OUTPUT_PORT_TYPE
+Qn[1] <= Qn~1.DB_MAX_OUTPUT_PORT_TYPE
+Qn1[0] <= Qn1~1.DB_MAX_OUTPUT_PORT_TYPE
+Qn1[1] <= Qn1~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

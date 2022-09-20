@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Sat Sep 10 14:55:34 2022
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : L0701
+Top-level Entity Name : SR_Latch
+Family : Cyclone III
+Device : EP3C16F484C6
+Power Models : Final
+Total Thermal Power Dissipation : 64.34 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 51.73 mW
+I/O Thermal Power Dissipation : 12.61 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

@@ -1,0 +1,7 @@
+
+State Machine - |Block1|L0902:inst|fstate
+Name fstate.D fstate.C fstate.B fstate.A 
+fstate.A 0 0 0 0 
+fstate.B 0 0 1 1 
+fstate.C 0 1 0 1 
+fstate.D 1 0 0 1 

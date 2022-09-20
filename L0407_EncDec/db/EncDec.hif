@@ -1,0 +1,59 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+DECODER
+# storage
+db|EncDec.(0).cnf
+db|EncDec.(0).cnf
+# case_insensitive
+# source_file
+DECODER.bdf
+e3144ae839cc3c5f8433808b9440d5aa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ENCODER
+# storage
+db|EncDec.(1).cnf
+db|EncDec.(1).cnf
+# case_insensitive
+# source_file
+ENCODER.bdf
+1e928bf1850e8e55a24ffb1530647
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

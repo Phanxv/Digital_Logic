@@ -1,0 +1,98 @@
+|Counter
+Q[0] <= BCD_Counter:inst.Q[0]
+Q[1] <= BCD_Counter:inst.Q[1]
+Q[2] <= BCD_Counter:inst.Q[2]
+Q[3] <= BCD_Counter:inst.Q[3]
+Count => BCD_Counter:inst.Count
+Clock => BCD_Counter:inst.Clock
+
+
+|Counter|BCD_Counter:inst
+Overflow <= HalfAddSub:inst.C
+Up_Down => HalfAddSub:inst.AddSub
+Up_Down => HalfAddSub:inst1.AddSub
+Up_Down => HalfAddSub:inst2.AddSub
+Up_Down => HalfAddSub:inst3.AddSub
+Q[0] <= D_FF_Clear:inst7.Q
+Q[1] <= D_FF_Clear:inst6.Q
+Q[2] <= D_FF_Clear:inst5.Q
+Q[3] <= D_FF_Clear:inst4.Q
+Count => HalfAddSub:inst3.B
+Clock => D_FF_Clear:inst5.CLK
+Clock => D_FF_Clear:inst6.CLK
+Clock => D_FF_Clear:inst7.CLK
+Clock => D_FF_Clear:inst4.CLK
+Clear => D_FF_Clear:inst5.Clear
+Clear => D_FF_Clear:inst6.Clear
+Clear => D_FF_Clear:inst7.Clear
+Clear => D_FF_Clear:inst4.Clear
+
+
+|Counter|BCD_Counter:inst|HalfAddSub:inst
+AddSub => C~0.IN0
+A => Sum~0.IN1
+A => C~1.IN1
+B => Sum~0.IN0
+B => C~0.IN1
+C <= C~1.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|D_FF_Clear:inst5
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|HalfAddSub:inst1
+AddSub => C~0.IN0
+A => Sum~0.IN1
+A => C~1.IN1
+B => Sum~0.IN0
+B => C~0.IN1
+C <= C~1.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|HalfAddSub:inst2
+AddSub => C~0.IN0
+A => Sum~0.IN1
+A => C~1.IN1
+B => Sum~0.IN0
+B => C~0.IN1
+C <= C~1.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|HalfAddSub:inst3
+AddSub => C~0.IN0
+A => Sum~0.IN1
+A => C~1.IN1
+B => Sum~0.IN0
+B => C~0.IN1
+C <= C~1.DB_MAX_OUTPUT_PORT_TYPE
+Sum <= Sum~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|D_FF_Clear:inst6
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|D_FF_Clear:inst7
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Counter|BCD_Counter:inst|D_FF_Clear:inst4
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Clear => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

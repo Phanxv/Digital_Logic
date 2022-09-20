@@ -1,0 +1,26 @@
+|L0704
+LEDG1 <= D_laych:inst.Q
+SW0 => D_laych:inst.D
+PB2 => SR_latch:inst1.Set
+PB1 => SR_latch:inst1.Reset
+LEDG0 <= D_laych:inst.Qn
+LEDG9 <= SR_latch:inst1.Q
+
+
+|L0704|D_laych:inst
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D => inst7.IN0
+D => inst7.IN1
+D => inst.IN1
+En => inst5.IN1
+En => inst.IN0
+Qn <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|L0704|SR_latch:inst1
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Reset => inst1.IN0
+Set => inst.IN1
+Qn <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

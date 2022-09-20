@@ -1,0 +1,82 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+L0501
+# storage
+db|L0501.(0).cnf
+db|L0501.(0).cnf
+# case_insensitive
+# source_file
+L0501.bdf
+fb3a8339becc975ef84f21319f91d29
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+7442
+# storage
+db|L0501.(1).cnf
+db|L0501.(1).cnf
+# case_insensitive
+# source_file
+..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|7442.bdf
+9fde3f19988a463d8321efa993c2b1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7442:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74157
+# storage
+db|L0501.(2).cnf
+db|L0501.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|altera|90sp2|quartus|libraries|others|maxplus2|74157.bdf
+fece847d7764ed8f1d301bff92412e91
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74157:inst
+}
+# macro_sequence
+
+# end
+# complete
+

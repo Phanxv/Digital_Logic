@@ -1,0 +1,8 @@
+|Test1NAND
+pin_name6 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+pin_name1 => inst3.IN0
+pin_name1 => inst.IN0
+pin_name => inst.IN1
+pin_name => inst2.IN1
+
+

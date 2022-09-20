@@ -1,0 +1,62 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+L0901
+# storage
+db|L0901.(0).cnf
+db|L0901.(0).cnf
+# case_insensitive
+# source_file
+L0901.bdf
+664de2a73c904a68364a7cd931d9496f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+FSM_circuit
+# storage
+db|L0901.(1).cnf
+db|L0901.(1).cnf
+# case_insensitive
+# source_file
+FSM_circuit.bdf
+d516b91856c5869a737afb15d9f8e5c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+FSM_circuit:inst
+}
+# macro_sequence
+
+# end
+# complete
+

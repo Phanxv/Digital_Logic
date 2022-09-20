@@ -1,0 +1,44 @@
+|Shift_Register
+Q[0] <= FF_JK:inst3.Q
+Q[1] <= FF_JK:inst2.Q
+Q[2] <= FF_JK:inst1.Q
+Q[3] <= FF_JK:inst.Q
+Serial_n => FF_JK:inst.D
+Clock => FF_JK:inst.Clk
+Clock => FF_JK:inst1.Clk
+Clock => FF_JK:inst2.Clk
+Clock => FF_JK:inst3.Clk
+Shift => FF_JK:inst.En
+Shift => FF_JK:inst1.En
+Shift => FF_JK:inst2.En
+Shift => FF_JK:inst3.En
+
+
+|Shift_Register|FF_JK:inst
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+En => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Shift_Register|FF_JK:inst1
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+En => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Shift_Register|FF_JK:inst2
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+En => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Shift_Register|FF_JK:inst3
+D => Q~reg0.DATAIN
+Clk => Q~reg0.CLK
+En => Q~reg0.ENA
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

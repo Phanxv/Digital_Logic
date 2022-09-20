@@ -1,0 +1,11 @@
+|FF_JK
+J => var_Q~0.IN1
+J => var_Qinv~1.IN1
+K => var_Qinv~0.IN1
+K => var_Q~1.IN1
+Clk => var_Q.CLK
+Clk => var_Qinv.CLK
+Q <= var_Q.DB_MAX_OUTPUT_PORT_TYPE
+Qinv <= var_Qinv.DB_MAX_OUTPUT_PORT_TYPE
+
+

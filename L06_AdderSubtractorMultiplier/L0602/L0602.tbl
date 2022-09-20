@@ -1,0 +1,42 @@
+%
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+%
+
+GROUP CREATE A = A[3] A[2] A[1] A[0] ;
+GROUP CREATE B = B[3] B[2] B[1] B[0] ;
+GROUP CREATE S = S[3] S[2] S[1] S[0] ;
+INPUTS A Add_Sub B;
+OUTPUTS CBout S;
+UNIT ns;
+RADIX HEX;
+PATTERN
+  0.0> 0 0 0 = 0 0 
+ 10.0> 2 0 4 = 0 6 
+ 20.0> 4 0 8 = 0 C 
+ 30.0> 6 0 C = 1 2 
+ 40.0> 8 0 0 = 0 8 
+ 50.0> A 0 4 = 0 E 
+ 60.0> C 0 8 = 1 4 
+ 70.0> E 0 C = 1 A 
+ 80.0> 0 1 0 = 0 0 
+ 90.0> 2 1 4 = 1 E 
+100.0> 4 1 8 = 1 C 
+110.0> 6 1 C = 1 A 
+120.0> 8 1 0 = 0 8 
+130.0> A 1 4 = 0 6 
+140.0> C 1 8 = 0 4 
+150.0> E 1 C = 0 2 
+160.0> X X X = X X 
+;

@@ -1,0 +1,134 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+HalfAddSub
+# storage
+db|L0802.(0).cnf
+db|L0802.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+HalfAddSub.vhd
+d677bfabd5a65075d936c68f1bb1df75
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+BCD_Counter:inst|HalfAddSub:inst
+BCD_Counter:inst|HalfAddSub:inst1
+BCD_Counter:inst|HalfAddSub:inst2
+BCD_Counter:inst|HalfAddSub:inst3
+}
+# lmf
+..|..|..|..|..|altera|90sp2|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+D_FF_Clear
+# storage
+db|L0802.(1).cnf
+db|L0802.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+D_FF_Clear.vhd
+49a4e49a26a53f7bca36c271f6da3a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+BCD_Counter:inst|D_FF_Clear:inst5
+BCD_Counter:inst|D_FF_Clear:inst6
+BCD_Counter:inst|D_FF_Clear:inst7
+BCD_Counter:inst|D_FF_Clear:inst4
+}
+# lmf
+..|..|..|..|..|altera|90sp2|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+BCD_Counter
+# storage
+db|L0802.(2).cnf
+db|L0802.(2).cnf
+# case_insensitive
+# source_file
+BCD_Counter.bdf
+b4734ab9f3f64f752d39dc4ed12fb22
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+BCD_Counter:inst
+}
+# macro_sequence
+
+# end
+# entity
+Counter
+# storage
+db|L0802.(3).cnf
+db|L0802.(3).cnf
+# case_insensitive
+# source_file
+Counter.bdf
+31513e3e1efb664877fe429ac66fb9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

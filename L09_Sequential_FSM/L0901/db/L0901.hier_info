@@ -1,0 +1,24 @@
+|L0901
+z <= FSM_circuit:inst.z
+W => FSM_circuit:inst.W
+Clk => FSM_circuit:inst.Clk
+Qn[0] <= FSM_circuit:inst.Qn[0]
+Qn[1] <= FSM_circuit:inst.Qn[1]
+Qn1[0] <= FSM_circuit:inst.Qn1[0]
+Qn1[1] <= FSM_circuit:inst.Qn1[1]
+
+
+|L0901|FSM_circuit:inst
+z <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Qn[0] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Qn[1] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Clk => inst1.CLK
+Clk => inst.CLK
+Qn1[0] <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+Qn1[1] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+W => inst8.IN2
+W => inst11.IN0
+W => inst7.IN2
+W => inst3.IN0
+
+

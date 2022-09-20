@@ -1,0 +1,79 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+SR_Latch
+# storage
+db|L0701.(0).cnf
+db|L0701.(0).cnf
+# case_insensitive
+# source_file
+SR_Latch.bdf
+32c7b584a464d14e2cbc4195ab84fc37
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+D_latch
+# storage
+db|L0701.(1).cnf
+db|L0701.(1).cnf
+# case_insensitive
+# source_file
+D_latch.bdf
+02dc266e1d2f2b478ccf2aa81f1d373
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+D_latch:inst
+}
+# macro_sequence
+
+# end
+# entity
+L0701
+# storage
+db|L0701.(2).cnf
+db|L0701.(2).cnf
+# case_insensitive
+# source_file
+L0701.bdf
+c3c4665837b6e71f5d8b8a6516c1e235
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,85 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+4bitAddSub
+# storage
+db|L0602.(0).cnf
+db|L0602.(0).cnf
+# case_insensitive
+# source_file
+4bitAddSub.bdf
+f3f9cdc878a3424174fb21bd65325a0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+4bitAddSub:inst
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|L0602.(1).cnf
+db|L0602.(1).cnf
+# case_insensitive
+# source_file
+FA.bdf
+71c7a6f74ed362f137bfdfc43796e1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+4bitAddSub:inst|FA:inst
+4bitAddSub:inst|FA:inst1
+4bitAddSub:inst|FA:inst2
+4bitAddSub:inst|FA:inst3
+}
+# macro_sequence
+
+# end
+# entity
+L0602
+# storage
+db|L0602.(2).cnf
+db|L0602.(2).cnf
+# case_insensitive
+# source_file
+L0602.bdf
+ff5b4a18482f27bb7a93558e8018c6c6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
